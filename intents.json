@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Hi there"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How may I help?"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your working hours?", "When are you open?"],
+      "responses": ["We are open from 9 AM to 5 PM, Monday to Friday."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that. Can you please rephrase?"]
+    }
+  ]
+}
